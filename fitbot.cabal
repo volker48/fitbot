@@ -1,0 +1,30 @@
+name:                fitbot
+version:             0.0.3
+synopsis:            Fitness tracking bot for 50onWelness
+homepage:            https://bitbucket.org/50onred/fitbot
+license:             MIT
+author:              Marcus McCurdy
+maintainer:          marcus.mccurdy@gmail.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable fitbot
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  build-depends:       base
+                     , wai
+                     , warp
+                     , http-types
+                     , resourcet
+                     , scotty
+                     , hedis
+                     , aeson
+                     , text
+                     , bytestring
+                     , random
+                     , monad-logger
+                     , transformers
+                     , wai-middleware-static
+                     , wai-extra
+                     , time
