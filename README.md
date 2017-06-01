@@ -1,10 +1,10 @@
-#Fitbot
+# Fitbot
 
 Fitbot is a Slackbot that will store a user's personal best fitness 
 record. Its currently being used to store records like max
 push ups, etc. You could use it to store any records though.
 
-##Deploying.
+## Deploying.
 
 If you want to run your own Fitbot you will need to setup a Slack outgoing web hook that will send requests to your Fitbot server.
 
